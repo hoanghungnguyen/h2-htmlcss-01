@@ -65,6 +65,8 @@ a {
 }
 
 .hero-wrap {
+  display: flex;
+  align-items: center;
   position: relative;
   background-color: #e6f0ff;
   height: calc(100vh - 90px);
@@ -112,7 +114,7 @@ a {
 /* =======Hero======= */
 .hero {
   /* margin-top: 130px; */
-  padding: 130px 38px 0;
+  padding: 0 38px 0;
 }
 
 .hero .info {
